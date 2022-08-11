@@ -1,0 +1,27 @@
+.navbutton {
+    background-color: aquamarine;
+    width: 100px;
+    padding: 11px 25px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+nav {
+    padding-top: 10px;
+}
+
+/* this makes the menu hidden by default */
+.dropdown {
+    display: none;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -27px;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    background-color: gray;
+}
